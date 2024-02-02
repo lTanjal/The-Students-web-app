@@ -1,0 +1,47 @@
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	  <title>Add student form</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/webAppExercises.css" />
+</head>
+<body>
+
+	<h1>Add student</h1>
+
+	<form id="formStudent">
+		<p>				
+			<label for="txtId">Id:</label> <input type="text" id="txtId"
+				name="txtId" size="20"><br>
+		</p>
+		<p>
+			<label for="txtFirstName">First name:</label> <input type="text"
+				id="txtFirstName" name="txtFirstName" size="20"><br>
+		</p>
+		<p>
+			<label for="txtLastName">Last name:</label> <input type="text"
+				id="txtLastName" name="txtLastName" size="20"><br>
+		</p>
+		<p>
+			<label for="txtStreet">Street:</label> <input type="text"
+				id="txtStreet" name="txtStreet" size="20"><br>
+		</p>
+		<p>
+			<label for="txtPostcode">Post code:</label> <input type="text"
+				id="txtPostcode" name="txtPostcode" size="20"><br>
+		</p>
+		<p>
+			<label for="txtPostOffice">Post office:</label> <input type="text"
+				id="txtPostOffice" name="txtPostOffice" size="20"><br>
+		</p>
+
+
+		 <button type="button" value="Add" onClick='studentAdd();'>Add</button>
+		 <button type="button" value="Cancel" onClick="location.href='http://localhost:8080/WebAppExercises/studentList.html'" >Cancel</button>
+
+	</form>
+	<script src="studentAdd.js"></script>
+	</body>
+</html>
